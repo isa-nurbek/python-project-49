@@ -32,7 +32,7 @@ The **Even Number** game is a simple interactive challenge where the player must
 
 ## Demo
 [![Demo](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD.svg)](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD)  
-**[Click here to open demo in a new tab ↗](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD)**{:.target="_blank"}
+**[Click here to open demo in a new tab ↗](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD)**{:target="_blank" rel="noopener noreferrer"}
 
 Click on the demo above to see the game in action!
 
