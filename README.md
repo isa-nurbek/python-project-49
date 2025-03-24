@@ -31,7 +31,7 @@ The **Even Number** game is a simple interactive challenge where the player must
 3. The game checks the answer and provides feedback.
 
 ## Demo
-[![asciicast](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD.svg)](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD)
+[![asciicast](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD.svg)](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD){:target="_blank"}
 
 Click on the demo above to see the game in action!
 
