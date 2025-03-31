@@ -18,6 +18,24 @@ Test your logic and math skills with **Brain Games**!
 
 ---
 
+# Game: Calculator  
+
+## Description  
+The **Calculator** game challenges players to solve randomly generated arithmetic expressions.  
+
+## How to Play  
+1. A mathematical expression (using `+`, `-`, or `*`) is displayed.  
+2. The player must enter the correct result of the expression.  
+3. If the answer is correct, the game continues. Otherwise, the game ends, and the player can try again.  
+
+## Demo
+[![Demo](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K.svg)](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K)  
+*Note: Right-click the link and select "Open in new tab" to keep this page open.*
+
+Enjoy the game and test your number skills!
+
+---
+
 # Game: Even Number
 
 ## Description
