@@ -32,7 +32,7 @@ The **Calculator** game challenges players to solve randomly generated arithmeti
 [![Demo](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K.svg)](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K)  
 *Note: Right-click the link and select "Open in new tab" to keep this page open.*
 
-Enjoy the game and test your number skills!
+Enjoy solving math problems with the Calculator game!
 
 ---
 
