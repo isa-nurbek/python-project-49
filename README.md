@@ -29,7 +29,7 @@ The **Calculator** game challenges players to solve randomly generated arithmeti
 3. If the answer is correct, the game continues. Otherwise, the game ends, and the player can try again.  
 
 ## Demo
-[![Demo](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K.svg)](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K)  
+[![Demo for Calculator game](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K.svg)](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K)  
 *Note: Right-click the link and select "Open in new tab" to keep this page open.*
 
 Enjoy solving math problems with the Calculator game!
@@ -49,7 +49,7 @@ The **Even Number** game is a simple interactive challenge where the player must
 3. The game checks the answer and provides feedback.
 
 ## Demo
-[![Demo](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD.svg)](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD)  
+[![Demo for Even Number game](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD.svg)](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD)  
 *Note: Right-click the link and select "Open in new tab" to keep this page open.*
 
 Enjoy the game and test your number skills!
