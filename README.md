@@ -21,7 +21,7 @@ Test your logic and math skills with **Brain Games**!
 # Game: "Calculator"  
 
 ## Description  
-The goal of the "Calculator" game is to solve simple mathematical expressions. The player is presented with a randomly generated arithmetic expression, such as `35 + 16`, and must provide the correct answer.  
+The goal of the **Calculator** game is to solve simple mathematical expressions. The player is presented with a randomly generated arithmetic expression, such as `35 + 16`, and must provide the correct answer.  
 
 ## Gameplay  
 When the game starts, the user is greeted and asked for their name. Then, the game begins presenting mathematical expressions to solve. The player must input the correct result. If the answer is correct, the game continues with another question.  
@@ -48,7 +48,7 @@ Congratulations, Sam!
 ```
 
 ## Rules  
-- The game includes three arithmetic operations: addition (`+`), subtraction (`-`), and multiplication (`*`).  
+- The game includes three arithmetic operations: `+` (addition), `-` (subtraction), and `*` (multiplication).  
 - Both numbers and operations are selected randomly.  
 - If the player provides an incorrect answer, the correct result is displayed, and the game ends.  
 
@@ -69,16 +69,16 @@ $ make brain-calc
 
 ## Demo
 [![Demo for Calculator game](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K.svg)](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K)  
-**"Click the link to watch the demo in Asciinema."**
+Click the link above to watch the demo in Asciinema!
 
 Enjoy solving math problems with the Calculator game!
 
 ---
 
-# Brain Even Game
+# Game: "Brain Even"
 
 ## Description
-The **Brain Even** game is a simple console-based game that tests the player's ability to determine whether a number is even or odd.
+The goal of the **Brain Even** game is to test the player's ability to determine whether a number is even or odd.
 
 ## Rules
 1. The player is presented with a random number.
@@ -86,7 +86,7 @@ The **Brain Even** game is a simple console-based game that tests the player's a
 3. If the player answers correctly, they proceed to the next question.
 4. If the player answers incorrectly, the game ends with a failure message.
 5. To win, the player must correctly answer **three consecutive** questions.
-6. Any invalid input (e.g., "n" instead of "no") is treated as an incorrect answer.
+6. Any input that does not match **"yes"** or **"no"** exactly (e.g., "y" instead of "yes") will be treated as incorrect.
 
 ## Example Gameplay
 ```
@@ -134,6 +134,6 @@ $ make brain-even
 
 ## Demo
 [![Demo for Brain Even game](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD.svg)](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD)  
-**"Click the link to watch the demo in Asciinema."**
+Click the link above to watch the demo in Asciinema!
 
 Enjoy the game and test your number skills!
