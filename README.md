@@ -18,38 +18,126 @@ Test your logic and math skills with **Brain Games**!
 
 ---
 
-# Game: Calculator  
+Here's a well-structured English version of your game description for `README.md`:  
+
+---
+
+# Game: "Calculator"  
 
 ## Description  
-The **Calculator** game challenges players to solve randomly generated arithmetic expressions.  
+The goal of the "Calculator" game is to solve simple mathematical expressions. The player is presented with a randomly generated arithmetic expression, such as `35 + 16`, and must provide the correct answer.  
 
-## How to Play  
-1. A mathematical expression (using `+`, `-`, or `*`) is displayed.  
-2. The player must enter the correct result of the expression.  
-3. If the answer is correct, the game continues. Otherwise, the game ends, and the player can try again.  
+## Gameplay  
+When the game starts, the user is greeted and asked for their name. Then, the game begins presenting mathematical expressions to solve. The player must input the correct result. If the answer is correct, the game continues with another question.  
+
+Example game session:  
+
+```bash
+$ make brain-calc
+
+Welcome to the Brain Games!  
+May I have your name? Sam  
+Hello, Sam!  
+What is the result of the expression?  
+Question: 4 + 10  
+Your answer: 14  
+Correct!  
+Question: 25 - 11  
+Your answer: 14  
+Correct!  
+Question: 25 * 7  
+Your answer: 175  
+Correct!  
+Congratulations, Sam!  
+```
+
+## Rules  
+- The game includes three arithmetic operations: addition (`+`), subtraction (`-`), and multiplication (`*`).  
+- Both numbers and operations are selected randomly.  
+- If the player provides an incorrect answer, the correct result is displayed, and the game ends.  
+
+Example of an incorrect answer:  
+
+```bash
+Question: 25 * 7  
+Your answer: 145  
+'145' is wrong answer ;(. Correct answer was '175'.  
+Let's try again, Sam!  
+```
+
+## Installation & Running
+To play the game, install the required dependencies and run the following command:
+```
+$ make brain-calc
+```
 
 ## Demo
 [![Demo for Calculator game](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K.svg)](https://asciinema.org/a/bdOugBFgGm4HASXZWZfrsNX5K)  
-*Note: Right-click the link and select "Open in new tab" to keep this page open.*
+**"Click the link to watch the demo in Asciinema."**
 
 Enjoy solving math problems with the Calculator game!
 
 ---
 
-# Game: Even Number
+# Brain Even Game
 
 ## Description
-The **Even Number** game is a simple interactive challenge where the player must determine whether a given number is even or odd.
+The **Brain Even** game is a simple console-based game that tests the player's ability to determine whether a number is even or odd.
 
-## How to Play
-1. A random number is displayed to the player.
-2. The player must respond:
-   - **"yes"** if the number is even.
-   - **"no"** if the number is odd.
-3. The game checks the answer and provides feedback.
+## Rules
+1. The player is presented with a random number.
+2. They must answer **"yes"** if the number is even, or **"no"** if the number is odd.
+3. If the player answers correctly, they proceed to the next question.
+4. If the player answers incorrectly, the game ends with a failure message.
+5. To win, the player must correctly answer **three consecutive** questions.
+6. Any invalid input (e.g., "n" instead of "no") is treated as an incorrect answer.
+
+## Example Gameplay
+```
+$ make brain-even
+
+Welcome to the Brain Games!
+May I have your name? Bill
+Hello, Bill!
+Answer "yes" if the number is even, otherwise answer "no".
+
+Question: 15
+Your answer: yes
+'yes' is wrong answer ;(. Correct answer was 'no'.
+Let's try again, Bill!
+```
+
+```
+$ make brain-even
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Answer "yes" if the number is even, otherwise answer "no".
+
+Question: 15
+Your answer: no
+Correct!
+
+Question: 6
+Your answer: yes
+Correct!
+
+Question: 7
+Your answer: no
+Correct!
+
+Congratulations, Sam!
+```
+
+## Installation & Running
+To play the game, install the required dependencies and run the following command:
+```
+$ make brain-even
+```
 
 ## Demo
-[![Demo for Even Number game](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD.svg)](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD)  
-*Note: Right-click the link and select "Open in new tab" to keep this page open.*
+[![Demo for Brain Even game](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD.svg)](https://asciinema.org/a/XCJQY1Wyx8v6xOvDd5efrwUiD)  
+**"Click the link to watch the demo in Asciinema."**
 
 Enjoy the game and test your number skills!
