@@ -137,3 +137,61 @@ $ make brain-even
 Click the link above to watch the demo in Asciinema!
 
 Enjoy the game and test your number skills!
+
+---
+
+# Game: "Greatest Common Divisor (GCD)"
+
+## Description
+The goal of the **GCD** game is to find the greatest common divisor (GCD) of two randomly generated numbers.
+
+## Rules
+1. The player is presented with two random numbers.
+2. They must calculate and input the greatest common divisor of these numbers.
+3. If the player answers correctly, they proceed to the next question.
+4. If the player answers incorrectly, the correct result is displayed, and the game ends.
+5. To win, the player must correctly answer **three consecutive** questions.
+
+## Example Gameplay
+```
+$ make brain-gcd
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Find the greatest common divisor of given numbers.
+
+Question: 25 50
+Your answer: 25
+Correct!
+
+Question: 100 52
+Your answer: 4
+Correct!
+
+Question: 3 9
+Your answer: 3
+Correct!
+
+Congratulations, Sam!
+```
+
+Example of an incorrect answer:
+```
+Question: 25 50
+Your answer: 1
+'1' is wrong answer ;(. Correct answer was '25'.
+Let's try again, Sam!
+```
+
+## Installation & Running
+To play the game, install the required dependencies and run the following command:
+```
+$ make brain-gcd
+```
+
+## Demo
+[![Demo for GCD game](https://asciinema.org/a/f7SbhMTIsVwGoyXlMgbJIYPdv.svg)](https://asciinema.org/a/f7SbhMTIsVwGoyXlMgbJIYPdv)  
+Click the link above to watch the demo in Asciinema!
+
+Enjoy the game and test your number skills!
