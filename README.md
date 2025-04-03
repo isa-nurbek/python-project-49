@@ -18,10 +18,6 @@ Test your logic and math skills with **Brain Games**!
 
 ---
 
-Here's a well-structured English version of your game description for `README.md`:  
-
----
-
 # Game: "Calculator"  
 
 ## Description  
