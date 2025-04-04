@@ -83,6 +83,73 @@ Enjoy solving math problems with the Calculator game!
 
 ---
 
+## Game: "Arithmetic Progression"
+
+### Description
+
+The goal of the **Progression** game is to identify the missing number in an arithmetic progression.
+
+### Rules
+
+- The player is shown a sequence of numbers forming an arithmetic progression.
+- One number in the sequence is replaced by two dots (`..`).
+- The player must guess the missing number.
+- The length of the progression is randomly determined but is always at least 5 numbers (recommended length is 10).
+- The position of the missing element changes randomly each round.
+- To win, the player must correctly answer **three consecutive** questions.
+- If the player provides an incorrect answer, the correct result is displayed, and the game ends.
+
+### Example Gameplay
+
+```plaintext
+$ make brain-progression
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+What number is missing in the progression?
+
+Question: 5 7 9 11 13 .. 17 19 21 23
+Your answer: 15
+Correct!
+
+Question: 2 5 8 .. 14 17 20 23 26 29
+Your answer: 11
+Correct!
+
+Question: 14 19 24 29 34 39 44 49 54 ..
+Your answer: 59
+Correct!
+
+Congratulations, Sam!
+```
+
+Example of an **incorrect answer**:
+
+```plaintext
+Question: 5 7 9 11 13 .. 17 19 21 23
+Your answer: 1
+'1' is wrong answer ;(. Correct answer was '15'.
+Let's try again, Sam!
+```
+
+### Installation & Running
+
+To play the game, install the required dependencies and run the following command:
+
+```plaintext
+make brain-progression
+```
+
+### Demo
+
+[![Demo for Progression game](https://asciinema.org/a/o8vENv6ZlStkCNEJBtHMXsXhO.svg)](https://asciinema.org/a/o8vENv6ZlStkCNEJBtHMXsXhO)  
+Click the link above to watch the demo in Asciinema!
+
+Have fun solving progressions and sharpening your logic!
+
+---
+
 ## Game: "Brain Even"
 
 ### Description
