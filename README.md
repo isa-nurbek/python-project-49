@@ -103,20 +103,6 @@ The goal of the **Brain Even** game is to test the player's ability to determine
 $ make brain-even
 
 Welcome to the Brain Games!
-May I have your name? Bill
-Hello, Bill!
-Answer "yes" if the number is even, otherwise answer "no".
-
-Question: 15
-Your answer: yes
-'yes' is wrong answer ;(. Correct answer was 'no'.
-Let's try again, Bill!
-```
-
-```plaintext
-$ make brain-even
-
-Welcome to the Brain Games!
 May I have your name? Sam
 Hello, Sam!
 Answer "yes" if the number is even, otherwise answer "no".
@@ -134,6 +120,22 @@ Your answer: no
 Correct!
 
 Congratulations, Sam!
+```
+
+Example of an incorrect answer:
+
+```plaintext
+$ make brain-even
+
+Welcome to the Brain Games!
+May I have your name? Bill
+Hello, Bill!
+Answer "yes" if the number is even, otherwise answer "no".
+
+Question: 15
+Your answer: yes
+'yes' is wrong answer ;(. Correct answer was 'no'.
+Let's try again, Bill!
 ```
 
 ### Installation & Running
