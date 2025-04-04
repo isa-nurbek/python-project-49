@@ -158,12 +158,12 @@ The goal of the **Brain Even** game is to test the player's ability to determine
 
 ### Rules
 
-1. The player is presented with a random number.
-2. They must answer **"yes"** if the number is even, or **"no"** if the number is odd.
-3. If the player answers correctly, they proceed to the next question.
-4. If the player answers incorrectly, the game ends with a failure message.
-5. To win, the player must correctly answer **three consecutive** questions.
-6. Any input that does not match **"yes"** or **"no"** exactly (e.g., "y" instead of "yes") will be treated as incorrect.
+- The player is presented with a random number.
+- They must answer **"yes"** if the number is even, or **"no"** if the number is odd.
+- If the player answers correctly, they proceed to the next question.
+- To win, the player must correctly answer **three consecutive** questions.
+- If the player provides an incorrect answer, the correct result is displayed, and the game ends.
+- Any input that does not match **"yes"** or **"no"** exactly (e.g., "y" instead of "yes") will be treated as incorrect.
 
 ### Example Gameplay
 
@@ -231,11 +231,11 @@ The goal of the **GCD** game is to find the greatest common divisor (GCD) of two
 
 ### Rules
 
-1. The player is presented with two random numbers.
-2. They must calculate and input the greatest common divisor of these numbers.
-3. If the player answers correctly, they proceed to the next question.
-4. If the player answers incorrectly, the correct result is displayed, and the game ends.
-5. To win, the player must correctly answer **three consecutive** questions.
+- The player is presented with two random numbers.
+- They must calculate and input the greatest common divisor of these numbers.
+- If the player answers correctly, they proceed to the next question.
+- To win, the player must correctly answer **three consecutive** questions.
+- If the player provides an incorrect answer, the correct result is displayed, and the game ends.
 
 ### Example Gameplay
 
