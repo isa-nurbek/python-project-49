@@ -29,7 +29,7 @@ The goal of the **Calculator** game is to solve simple mathematical expressions.
 
 When the game starts, the user is greeted and asked for their name. Then, the game begins presenting mathematical expressions to solve. The player must input the correct result. If the answer is correct, the game continues with another question.  
 
-Example game session:  
+### Example Gameplay  
 
 ```bash
 $ make brain-calc
@@ -56,7 +56,7 @@ Congratulations, Sam!
 - Both numbers and operations are selected randomly.  
 - If the player provides an incorrect answer, the correct result is displayed, and the game ends.  
 
-Example of an incorrect answer:  
+Example of an **incorrect answer**:  
 
 ```bash
 Question: 25 * 7  
@@ -122,7 +122,7 @@ Correct!
 Congratulations, Sam!
 ```
 
-Example of an incorrect answer:
+Example of an **incorrect answer**:
 
 ```plaintext
 $ make brain-even
@@ -194,7 +194,7 @@ Correct!
 Congratulations, Sam!
 ```
 
-Example of an incorrect answer:
+Example of an **incorrect answer**:
 
 ```plaintext
 Question: 25 50
