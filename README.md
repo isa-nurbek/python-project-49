@@ -29,6 +29,7 @@ The goal of the **Calculator** game is to solve simple mathematical expressions.
 
 - The game includes three arithmetic operations: `+` (addition), `-` (subtraction), and `*` (multiplication).  
 - Both numbers and operations are selected randomly.  
+- To win, the player must correctly answer **three consecutive** questions.
 - If the player provides an incorrect answer, the correct result is displayed, and the game ends.  
 
 ### Gameplay  
