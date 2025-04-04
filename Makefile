@@ -10,6 +10,9 @@ brain-calc:
 brain-gcd:
 	uv run brain-gcd
 
+brain-progression:
+	uv run brain-progression
+
 package-install:
 	uv tool install --reinstall dist/*.whl
 
