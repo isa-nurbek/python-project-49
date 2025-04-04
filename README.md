@@ -25,6 +25,12 @@ Test your logic and math skills with **Brain Games**!
 
 The goal of the **Calculator** game is to solve simple mathematical expressions. The player is presented with a randomly generated arithmetic expression, such as `35 + 16`, and must provide the correct answer.  
 
+### Rules  
+
+- The game includes three arithmetic operations: `+` (addition), `-` (subtraction), and `*` (multiplication).  
+- Both numbers and operations are selected randomly.  
+- If the player provides an incorrect answer, the correct result is displayed, and the game ends.  
+
 ### Gameplay  
 
 When the game starts, the user is greeted and asked for their name. Then, the game begins presenting mathematical expressions to solve. The player must input the correct result. If the answer is correct, the game continues with another question.  
@@ -49,12 +55,6 @@ Your answer: 175
 Correct!  
 Congratulations, Sam!  
 ```
-
-### Rules  
-
-- The game includes three arithmetic operations: `+` (addition), `-` (subtraction), and `*` (multiplication).  
-- Both numbers and operations are selected randomly.  
-- If the player provides an incorrect answer, the correct result is displayed, and the game ends.  
 
 Example of an **incorrect answer**:  
 
