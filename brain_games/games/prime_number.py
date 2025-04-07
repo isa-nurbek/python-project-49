@@ -21,7 +21,7 @@ def is_prime(number):
     return True
 
 
-def generate_question_and_answer():
+def produce_question_and_answer():
     number = randint(1, 10)
     question = f"{number}"
 
