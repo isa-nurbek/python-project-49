@@ -13,6 +13,69 @@
 4. **Greatest Common Divisor (GCD)** – Find the greatest common divisor of two numbers.
 5. **Prime Number** – Determine if a number is prime.
 
+---
+
+## Project Structure
+
+```plaintext
+├── brain_games/                   
+│   ├── games/                    
+│   │   ├── arithmetic_progression.py
+│   │   ├── calc.py
+│   │   ├── even.py
+│   │   ├── greatest_common_divisor.py
+│   │   ├── prime_number.py
+│   ├── scripts/                   
+│   │   ├── brain_calc.py
+│   │   ├── brain_even.py
+│   │   ├── brain_games.py
+│   │   ├── brain_gcd.py
+│   │   ├── brain_prime.py
+│   │   ├── brain_progression.py
+│   │   ├── __init__.py
+│   ├── __init__.py              
+├── cli.py                      
+├── games_logic.py              
+├── main.py                     
+├── Makefile                    
+├── pyproject.toml              
+├── README.md                   
+├── ruff.toml                   
+└── uv.lock
+```
+
+## Main Folders
+
+**brain_games/**: Main package directory containing the game logic  
+**games/**: Contains individual game implementations  
+
+- `arithmetic_progression.py`: Logic for arithmetic sequence game  
+- `calc.py`: Basic arithmetic calculation game  
+- `even.py`: Even/odd number determination game  
+- `greatest_common_divisor.py`: GCD calculation game  
+- `prime_number.py`: Prime number identification game  
+
+**scripts/**: Entry points for each game  
+
+- `brain_calc.py`: Entry point for Calculation game  
+- `brain_even.py`: Entry point for Even Number game  
+- `brain_games.py`: Entry point for the welcome screen of the Brain Games collection  
+- `brain_gcd.py`: Entry point for GCD game  
+- `brain_prime.py`: Entry point for Prime Number game  
+- `brain_progression.py`: Entry point for Arithmetic Sequence game  
+- `__init__.py`: Makes the directory a Python package  
+
+## Root Files
+
+- `cli.py`: Command-line interface utilities (handles user interaction)  
+- `games_logic.py`: Core game engine shared across all games  
+- `main.py`: Main entry point of the project  
+- `Makefile`: Contains commands for building, testing, and running games  
+- `pyproject.toml`: Project metadata and dependencies  
+- `README.md`: Project documentation and badges  
+- `ruff.toml`: Configuration for the Ruff linter  
+- `uv.lock`: Lock file for UV package manager
+
 Test your logic and math skills with **Brain Games**!
 
 ---
