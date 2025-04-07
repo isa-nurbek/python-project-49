@@ -13,6 +13,9 @@ brain-gcd:
 brain-progression:
 	uv run brain-progression
 
+brain-prime:
+	uv run brain-prime
+
 package-install:
 	uv tool install --reinstall dist/*.whl
 
