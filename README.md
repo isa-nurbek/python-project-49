@@ -283,3 +283,68 @@ make brain-gcd
 Click the link above to watch the demo in Asciinema!
 
 Enjoy the game and test your number skills!
+
+---
+
+## Game: "Prime Number"
+
+### Description
+
+The goal of the **Prime Number** game is to test whether the player can determine if a given number is prime.
+
+### Rules
+
+- The player is shown a single number.
+- They must answer **"yes"** if the number is prime, or **"no"** if it is not.
+- If the player answers correctly, they proceed to the next question.
+- To win, the player must correctly answer **three consecutive** questions.
+- If the player provides an incorrect answer, the correct result is displayed, and the game ends.
+
+### Example Gameplay
+
+```plaintext
+$ make brain-prime
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Answer "yes" if given number is prime. Otherwise answer "no".
+
+Question: 7
+Your answer: yes
+Correct!
+
+Question: 13
+Your answer: yes
+Correct!
+
+Question: 3
+Your answer: yes
+Correct!
+
+Congratulations, Sam!
+```
+
+Example of an **incorrect answer**:
+
+```plaintext
+Question: 9
+Your answer: yes
+'yes' is wrong answer ;(. Correct answer was 'no'.
+Let's try again, Sam!
+```
+
+### Installation & Running
+
+To play the game, install the required dependencies and run the following command:
+
+```plaintext
+make brain-prime
+```
+
+### Demo
+
+[![Demo for Prime Number game](https://asciinema.org/a/HMkRY3JXksfK1hLzXgGIunbym.svg)](https://asciinema.org/a/HMkRY3JXksfK1hLzXgGIunbym)  
+Click the link above to watch the demo in Asciinema!
+
+Enjoy the game and test your number skills!
