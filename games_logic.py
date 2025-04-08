@@ -1,6 +1,6 @@
 import prompt
 
-from cli import welcome
+from brain_games.cli import welcome
 
 
 def init_game(game_module):
