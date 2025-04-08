@@ -49,11 +49,11 @@
 **brain_games/**: Main package directory containing the game logic  
 **games/**: Contains individual game implementations  
 
-- `arithmetic_progression.py`: Logic for arithmetic sequence game  
-- `calc.py`: Basic arithmetic calculation game  
-- `even.py`: Even/odd number determination game  
-- `greatest_common_divisor.py`: GCD calculation game  
-- `prime_number.py`: Prime number identification game  
+- `arithmetic_progression.py`: Logic for Arithmetic Sequence game  
+- `calc.py`: Logic for arithmetic Calculation game  
+- `even.py`: Logic for Even/Odd Number determination game  
+- `greatest_common_divisor.py`: Logic for GCD calculation game  
+- `prime_number.py`: Logic for Prime Number identification game  
 
 **scripts/**: Entry points for each game  
 
