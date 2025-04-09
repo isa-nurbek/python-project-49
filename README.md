@@ -71,7 +71,6 @@
 
 ## Root Files
 
-- `main.py`: Main entry point of the project  
 - `Makefile`: Contains commands for building, testing, and running games  
 - `pyproject.toml`: Project metadata and dependencies  
 - `README.md`: Project documentation and badges  
