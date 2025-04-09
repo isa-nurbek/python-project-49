@@ -1,5 +1,5 @@
 from brain_games.games import greatest_common_divisor
-from games_logic import init_game
+from brain_games.games_logic import init_game
 
 
 def main():

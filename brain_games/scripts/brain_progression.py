@@ -1,5 +1,5 @@
 from brain_games.games import arithmetic_progression
-from games_logic import init_game
+from brain_games.games_logic import init_game
 
 
 def main():
