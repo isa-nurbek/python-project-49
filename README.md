@@ -21,8 +21,8 @@
 ├── brain_games/                   
 │   ├── games/                    
 │   │   ├── arithmetic_progression.py
-│   │   ├── calc.py
-│   │   ├── even.py
+│   │   ├── calculator.py
+│   │   ├── even_number.py
 │   │   ├── greatest_common_divisor.py
 │   │   ├── prime_number.py
 │   ├── scripts/                   
@@ -34,8 +34,8 @@
 │   │   ├── brain_progression.py
 │   │   ├── __init__.py
 │   ├── __init__.py              
-├── cli.py                      
-├── games_logic.py              
+│   ├── cli.py             
+│   ├── games_logic.py                           
 ├── main.py                     
 ├── Makefile                    
 ├── pyproject.toml              
