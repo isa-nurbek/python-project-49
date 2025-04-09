@@ -26,17 +26,16 @@
 │   │   ├── greatest_common_divisor.py
 │   │   ├── prime_number.py
 │   ├── scripts/                   
+│   │   ├── __init__.py
 │   │   ├── brain_calc.py
 │   │   ├── brain_even.py
 │   │   ├── brain_games.py
 │   │   ├── brain_gcd.py
 │   │   ├── brain_prime.py
 │   │   ├── brain_progression.py
-│   │   ├── __init__.py
 │   ├── __init__.py              
 │   ├── cli.py             
-│   ├── games_logic.py                           
-├── main.py                     
+│   ├── games_logic.py                                                
 ├── Makefile                    
 ├── pyproject.toml              
 ├── README.md                   
@@ -47,28 +46,31 @@
 ## Main Folders
 
 **brain_games/**: Main package directory containing the game logic  
+
 **games/**: Contains individual game implementations  
 
-- `arithmetic_progression.py`: Logic for arithmetic sequence game  
-- `calc.py`: Basic arithmetic calculation game  
-- `even.py`: Even/odd number determination game  
+- `arithmetic_progression.py`: Logic for Arithmetic Sequence game  
+- `calc.py`: Basic arithmetic Calculation game  
+- `even.py`: Even/Odd Number determination game  
 - `greatest_common_divisor.py`: GCD calculation game  
-- `prime_number.py`: Prime number identification game  
+- `prime_number.py`: Prime Number identification game  
 
 **scripts/**: Entry points for each game  
 
+- `__init__.py`: Makes the directory a Python package
 - `brain_calc.py`: Entry point for Calculation game  
 - `brain_even.py`: Entry point for Even Number game  
 - `brain_games.py`: Entry point for the welcome screen of the Brain Games collection  
 - `brain_gcd.py`: Entry point for GCD game  
 - `brain_prime.py`: Entry point for Prime Number game  
-- `brain_progression.py`: Entry point for Arithmetic Sequence game  
-- `__init__.py`: Makes the directory a Python package  
+- `brain_progression.py`: Entry point for Arithmetic Sequence game
+
+- `__init__.py`: Makes the directory a Python package
+- `cli.py`: Command-line interface utilities (handles user interaction)  
+- `games_logic.py`: Core game engine shared across all games
 
 ## Root Files
 
-- `cli.py`: Command-line interface utilities (handles user interaction)  
-- `games_logic.py`: Core game engine shared across all games  
 - `main.py`: Main entry point of the project  
 - `Makefile`: Contains commands for building, testing, and running games  
 - `pyproject.toml`: Project metadata and dependencies  
