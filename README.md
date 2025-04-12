@@ -83,7 +83,7 @@ Test your logic and math skills with **Brain Games**!
 
 ---
 
-## Game: "Calculator"  
+## Game 1: "Calculator"  
 
 ### Description  
 
@@ -147,7 +147,7 @@ Enjoy solving math problems with the Calculator game!
 
 ---
 
-## Game: "Arithmetic Progression"
+## Game 2: "Arithmetic Progression"
 
 ### Description
 
@@ -214,7 +214,7 @@ Have fun solving progressions and sharpening your logic!
 
 ---
 
-## Game: "Brain Even"
+## Game 3: "Brain Even"
 
 ### Description
 
@@ -287,7 +287,7 @@ Enjoy the game and test your number skills!
 
 ---
 
-## Game: "Greatest Common Divisor (GCD)"
+## Game 4: "Greatest Common Divisor (GCD)"
 
 ### Description
 
@@ -352,7 +352,7 @@ Enjoy the game and test your number skills!
 
 ---
 
-## Game: "Prime Number"
+## Game 5: "Prime Number"
 
 ### Description
 
