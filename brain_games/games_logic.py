@@ -2,12 +2,14 @@ import prompt
 
 from brain_games.cli import welcome
 
+ROUNDS_COUNT = 3
+
 
 def init_game(game_module):
     name = welcome()
     print(game_module.GAME_RULES)
 
-    for _ in range(3):
+    for _ in range(ROUNDS_COUNT):
         question, correct_answer = game_module.produce_question_and_answer()
 
         print(f"Question: {question}")
@@ -22,4 +24,5 @@ def init_game(game_module):
                 f"Let's try again, {name}!"
             )
             return
-    print(f"Congratulations, {name}!")
+    else:
+        print(f"Congratulations, {name}!")
