@@ -36,6 +36,7 @@
 │   ├── __init__.py              
 │   ├── cli.py             
 │   ├── games_logic.py                                                
+├── .gitignore                   
 ├── Makefile                    
 ├── pyproject.toml              
 ├── README.md                   
@@ -71,6 +72,7 @@
 
 ## Root Files
 
+- `.gitignore`: Configuration file used by Git. This helps prevent unnecessary files (like build artifacts, logs, or local configs) from being committed to version control.
 - `Makefile`: Contains commands for building, testing, and running games  
 - `pyproject.toml`: Project metadata and dependencies  
 - `README.md`: Project documentation and badges  
