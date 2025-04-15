@@ -5,12 +5,12 @@ from brain_games.cli import welcome
 ROUNDS_COUNT = 3
 
 
-def init_game(game_module):
+def run(game):
     name = welcome()
-    print(game_module.GAME_RULES)
+    print(game.GAME_RULES)
 
     for _ in range(ROUNDS_COUNT):
-        question, correct_answer = game_module.produce_question_and_answer()
+        question, correct_answer = game.produce_question_and_answer()
 
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
