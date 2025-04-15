@@ -23,6 +23,6 @@ def run(game):
                 f"Correct answer was '{correct_answer}'.\n"
                 f"Let's try again, {name}!"
             )
-            return
+            break
     else:
         print(f"Congratulations, {name}!")
