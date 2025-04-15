@@ -20,6 +20,7 @@
 ```plaintext
 ├── brain_games/                   
 │   ├── games/                    
+│   │   ├── __init__.py
 │   │   ├── arithmetic_progression.py
 │   │   ├── calculator.py
 │   │   ├── even_number.py
@@ -50,6 +51,7 @@
 
 **games/**: Contains individual game implementations  
 
+- `__init__.py`: Makes the directory a Python package  
 - `arithmetic_progression.py`: Logic for Arithmetic Sequence game  
 - `calc.py`: Basic arithmetic Calculation game  
 - `even.py`: Even/Odd Number determination game  
