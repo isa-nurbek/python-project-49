@@ -18,68 +18,37 @@
 ## Project Structure
 
 ```plaintext
-├── brain_games/                   
-│   ├── games/                    
-│   │   ├── __init__.py
-│   │   ├── arithmetic_progression.py
-│   │   ├── calculator.py
-│   │   ├── even_number.py
-│   │   ├── greatest_common_divisor.py
-│   │   ├── prime_number.py
-│   ├── scripts/                   
-│   │   ├── __init__.py
-│   │   ├── brain_calc.py
-│   │   ├── brain_even.py
-│   │   ├── brain_games.py
-│   │   ├── brain_gcd.py
-│   │   ├── brain_prime.py
-│   │   ├── brain_progression.py
-│   ├── __init__.py              
-│   ├── cli.py             
-│   ├── games_logic.py                                                
-├── .gitignore                   
-├── Makefile                    
-├── pyproject.toml              
-├── README.md                   
-├── ruff.toml                   
-└── uv.lock
+brain_games/
+├── games/                  # Individual game logic modules
+│   ├── arithmetic_progression.py
+│   ├── calculator.py
+│   ├── even_number.py
+│   ├── greatest_common_divisor.py
+│   ├── prime_number.py
+│   └── __init__.py
+│
+├── scripts/                # CLI entry points for each game
+│   ├── brain_calc.py
+│   ├── brain_even.py
+│   ├── brain_games.py
+│   ├── brain_gcd.py
+│   ├── brain_prime.py
+│   ├── brain_progression.py
+│   └── __init__.py
+│
+├── cli.py                  # CLI utilities (user interaction)
+├── games_logic.py          # Shared game engine
+└── __init__.py             # Package initializer
 ```
 
-## Main Folders
+### 🗂️ Root Files
 
-**brain_games/**: Main package directory containing the game logic  
-
-**games/**: Contains individual game implementations  
-
-- `__init__.py`: Makes the directory a Python package  
-- `arithmetic_progression.py`: Logic for Arithmetic Sequence game  
-- `calc.py`: Basic arithmetic Calculation game  
-- `even.py`: Even/Odd Number determination game  
-- `greatest_common_divisor.py`: GCD calculation game  
-- `prime_number.py`: Prime Number identification game  
-
-**scripts/**: Entry points for each game  
-
-- `__init__.py`: Makes the directory a Python package
-- `brain_calc.py`: Entry point for Calculation game  
-- `brain_even.py`: Entry point for Even Number game  
-- `brain_games.py`: Entry point for the welcome screen of the Brain Games collection  
-- `brain_gcd.py`: Entry point for GCD game  
-- `brain_prime.py`: Entry point for Prime Number game  
-- `brain_progression.py`: Entry point for Arithmetic Sequence game
-
-- `__init__.py`: Makes the directory a Python package
-- `cli.py`: Command-line interface utilities (handles user interaction)  
-- `games_logic.py`: Core game engine shared across all games
-
-## Root Files
-
-- `.gitignore`: Configuration file used by Git. This helps prevent unnecessary files (like build artifacts, logs, or local configs) from being committed to version control.
-- `Makefile`: Contains commands for building, testing, and running games  
-- `pyproject.toml`: Project metadata and dependencies  
-- `README.md`: Project documentation and badges  
-- `ruff.toml`: Configuration for the Ruff linter  
-- `uv.lock`: Lock file for UV package manager
+* `.gitignore` – Files and directories to exclude from Git version control
+* `Makefile` – Useful commands (run, test, lint, etc.)
+* `pyproject.toml` – Project metadata and dependency management
+* `ruff.toml` – Configuration for [Ruff](https://docs.astral.sh/ruff/) linter
+* `uv.lock` – Lockfile for [UV](https://github.com/astral-sh/uv) package manager
+* `README.md` – Project overview and setup instructions
 
 Test your logic and math skills with **Brain Games**!
 
